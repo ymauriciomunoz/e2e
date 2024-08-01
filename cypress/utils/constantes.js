@@ -7,6 +7,7 @@ const Textos={
     firsName:'Yeison',
     lastName:'Munoz',
     postalCode:'000000',
-    orderComplet:'Thank you for your order!'
+    orderComplet:'Thank you for your order!',
+    password:'MTIzNDU='
  };
  module.exports=Textos

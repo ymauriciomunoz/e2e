@@ -20,9 +20,13 @@ Cypress Mochawesome Reporter: ^3.8.2
 
 cypress-plugin-api ^2.11.2
 
-## Comandos de ejecución y generación de reporte
+## Comandos de ejecución y generación de reporte, el primero para e2e, el segundo para api y el tercero para ejecutar todo el proyecto
 
-npm run testEdge
+npm run testEdgeSauce     
+
+npm run testEdgeDemoApi
+
+npx cypress run
 
 ## Comando para Ejecutar Pruebas en Modo Interactivo
 
