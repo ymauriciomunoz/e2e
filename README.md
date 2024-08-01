@@ -2,6 +2,8 @@
 
 Este proyecto es una suite de pruebas automatizadas utilizando Cypress. Las pruebas están configuradas para ejecutarse en el navegador Microsoft Edge.
 
+Nota= Normalmente, se eliminan las carpetas node_modules y el archivo package-lock.json antes de subir el código, sin embargo, en esta actividad se especificó subir todos los archivos generados, por lo que también se incluyeron estos. Para poder ejecutar el proyecto de manera local, es recomendable eliminar node_modules y package-lock.json antes de reinstalar las dependencias. los reportes y videos se actualizan con la ejecución en modo run, no es necesario borrarlos.
+
 ## Requisitos
 
 - **Node.js**: v18.13.0
