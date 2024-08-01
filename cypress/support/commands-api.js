@@ -1,4 +1,4 @@
-const selector = require("../utils/selectoresLogin");
+
 
 Cypress.Commands.add('demoBlaze', (user,pass,endpoint) => { 
   const requestBody = {};
