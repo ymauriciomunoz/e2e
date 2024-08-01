@@ -1,0 +1,24 @@
+{
+  "name": "Automation",
+  "version": "1.0.0",
+  "description": "automation e2e,api",
+  "main": "index.js",
+  "scripts": {
+    "testEdgeSauce": "cypress run --spec 'cypress/e2e/saucedemo.cy.js' --browser edge",
+    "testEdgeDemoApi": "cypress run --spec 'cypress/e2e/apiDemoBlaze.cy.js' --browser edge"
+  },
+  "keywords": [
+    "automatizacion",
+    "E2E",
+    "screenplay"
+  ],
+  "author": "yeion",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.2"
+  }
+}
